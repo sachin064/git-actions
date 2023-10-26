@@ -17,8 +17,7 @@ jobs:
         pip install pytest
     - name: Run pytest
       run: |
-        cd src
-        python -m pytest addition.py
+        python -m pytest src.py
         
         
       
